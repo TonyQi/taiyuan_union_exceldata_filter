@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="indi.nonoas.crm.dao.EnterpriseMapper">
+    <resultMap id="EnterpriseDto" type="indi.nonoas.crm.pojo.dto.EnterpriseDto">
+        <result column="enterprise_id" property="enterpriseId"></result>
+        <result column="enterprise_name" property="enterpriseName"></result>
+        <result column="enterprise_type" property="enterpriseType"></result>
+        <result column="tax_org" property="taxOrg"></result>
+        <result column="cancel_date" property="cancelDate"></result>
+    </resultMap>
+    <select id="selectEnterprise" parameterType="indi.nonoas.crm.pojo.vo.EnterpriseVO"   resultMap="EnterpriseDto">
+        select *
+        from enterprise_tb
+        where 1=1
+        <if test="enterpriseId != null and enterpriseId != ''">
+            and  enterpris_id LIKE  '%${enterpriseId}%'
+        </if>
+        <if test="enterpriseName != null and enterpriseName != ''">
+            and  enterprise_name LIKE  '%${enterpriseName}%'
+        </if>
+        <if test="enterpriseType != null and enterpriseType != ''">
+            and  enterprise_type = #{enterpriseType}
+        </if>
+        <if test="cancelDateBegin != null">
+            <![CDATA[ AND cancel_date >= #{cancelDateBegin} ]]>
+        </if>
+        <if test="cancelDateEnd != null">
+            <![CDATA[ AND cancel_date <= #{cancelDateEnd} ]]>
+        </if>
+    </select>
+
+    <select id="selectEnterpriseCount" parameterType="indi.nonoas.crm.pojo.vo.EnterpriseVO"  resultType="int">
+        select
+            count(*)
+        from
+            enterprise_tb
+        where
+            1=1
+        <if test="enterpriseId != null and enterpriseId != ''">
+            and  enterpris_id LIKE  '%${enterpriseId}%'
+        </if>
+        <if test="enterpriseName != null and enterpriseName != ''">
+            and  enterprise_name LIKE  '%${enterpriseName}%'
+        </if>
+        <if test="enterpriseType != null and enterpriseType != ''">
+            and  enterprise_type = #{enterpriseType}
+        </if>
+        <if test="cancelDateBegin != null">
+            <![CDATA[ AND cancel_date >= #{cancelDateBegin} ]]>
+        </if>
+        <if test="cancelDateEnd != null">
+            <![CDATA[ AND cancel_date <= #{cancelDateEnd} ]]>
+        </if>
+    </select>
+
+    <select id="selectEnterpriseByPage" parameterType="indi.nonoas.crm.pojo.vo.EnterpriseVO"  resultMap="EnterpriseDto">
+        select
+            *
+        from
+            enterprise_tb
+        where
+            1=1
+        <if test="enterpriseId != null and enterpriseId != ''">
+            and  enterprise_id LIKE  '%${enterpriseId}%'
+        </if>
+        <if test="enterpriseName != null and enterpriseName != ''">
+            and  enterprise_name LIKE  '%${enterpriseName}%'
+        </if>
+        <if test="enterpriseType != null and enterpriseType != ''">
+            and  enterprise_type = #{enterpriseType}
+        </if>
+        <if test="cancelDateBegin != null">
+            <![CDATA[ AND cancel_date >= #{cancelDateBegin} ]]>
+        </if>
+        <if test="cancelDateEnd != null">
+            <![CDATA[ AND cancel_date <= #{cancelDateEnd} ]]>
+        </if>
+        LIMIT #{offset}, #{size}
+    </select>
+
+
+    <insert id="insertEnterprise" >
+        insert
+            into enterprise_tb
+                (enterprise_id,enterprise_name,enterprise_type,tax_org,cancel_date)
+            values
+                (#{enterpriseId},#{enterpriseName},#{enterpriseType},#{taxOrg},#{cancelDate})
+    </insert>
+    <insert id="insertEnterpriseBatch" parameterType="list">
+        insert
+            into enterprise_tb
+                (enterprise_id,enterprise_name,enterprise_type,tax_org,cancel_date)
+            values
+        <foreach collection="list" item="item" index="index" separator=",">
+
+                (#{item.enterpriseId},#{item.enterpriseName},#{item.enterpriseType},#{item.taxOrg},#{item.cancelDate})
+        </foreach>
+    </insert>
+
+    <delete id="deleteAllEnterprises">
+        delete from enterprise_tb
+    </delete>
+</mapper>

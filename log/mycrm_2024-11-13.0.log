@@ -1,0 +1,221 @@
+2024-11-13 14:07:24.947 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 19412 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:07:24.950 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:07:26.265 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.88 seconds (JVM running for 3.138)
+2024-11-13 14:07:28.050 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:07:30.828 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:11:21.847 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 13416 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:11:21.849 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:11:23.013 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.621 seconds (JVM running for 2.37)
+2024-11-13 14:11:33.268 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:11:38.260 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:12:48.625 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 21180 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:12:48.628 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:12:49.831 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.647 seconds (JVM running for 2.459)
+2024-11-13 14:12:51.478 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:12:53.739 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:14:16.934 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 20332 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:14:16.938 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:14:18.138 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.658 seconds (JVM running for 2.471)
+2024-11-13 14:14:19.965 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:14:22.443 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:15:50.026 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 1532 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:15:50.029 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:15:51.270 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.686 seconds (JVM running for 2.499)
+2024-11-13 14:15:52.890 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:15:55.018 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:26:14.911 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 13440 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:26:14.913 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:26:16.132 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.672 seconds (JVM running for 2.488)
+2024-11-13 14:26:17.423 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:26:19.924 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:35:07.567 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 6580 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:35:07.569 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:35:08.774 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.644 seconds (JVM running for 2.411)
+2024-11-13 14:35:10.628 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:35:13.515 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:36:54.623 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 16980 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:36:54.625 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:36:55.890 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.773 seconds (JVM running for 2.584)
+2024-11-13 14:37:43.796 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:37:46.073 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:39:46.130 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m2s283ms371µs800ns).
+2024-11-13 14:39:48.664 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 20912 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:39:48.666 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:39:49.864 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.627 seconds (JVM running for 2.486)
+2024-11-13 14:39:51.283 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:39:53.526 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:40:30.624 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 20696 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:40:30.626 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:40:31.863 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.692 seconds (JVM running for 2.47)
+2024-11-13 14:40:33.294 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:40:35.772 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:41:04.279 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 18300 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:41:04.281 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:41:05.503 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.681 seconds (JVM running for 2.57)
+2024-11-13 14:41:08.687 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:41:11.421 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:41:32.166 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 16096 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:41:32.169 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:41:33.392 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.676 seconds (JVM running for 2.442)
+2024-11-13 14:41:35.497 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:41:37.891 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:42:53.550 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 19576 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:42:53.552 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:42:54.771 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.669 seconds (JVM running for 2.456)
+2024-11-13 14:42:56.493 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:42:59.644 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:57:39.594 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 1436 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:57:39.596 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:57:40.895 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.754 seconds (JVM running for 2.533)
+2024-11-13 14:57:42.999 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:57:45.692 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:59:15.660 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 22012 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 14:59:15.663 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 14:59:16.836 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.639 seconds (JVM running for 2.388)
+2024-11-13 14:59:18.538 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 14:59:21.452 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 15:03:53.710 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 22240 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 15:03:53.713 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 15:03:54.936 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.674 seconds (JVM running for 2.453)
+2024-11-13 15:03:56.723 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 15:03:56.740 [JavaFX Application Thread] ERROR indi.jfxmaker.AbstractApp - 无法加载应用程序： 
+java.lang.IllegalStateException: Cannot load mainstage
+	at indi.jfxmaker.fxml.AbstractFxmlView.loadSynchronously(AbstractFxmlView.java:160)
+	at indi.jfxmaker.fxml.AbstractFxmlView.ensureFxmlLoaderInitialized(AbstractFxmlView.java:175)
+	at indi.jfxmaker.fxml.AbstractFxmlView.getView(AbstractFxmlView.java:187)
+	at indi.jfxmaker.AbstractApp.showView(AbstractApp.java:203)
+	at indi.nonoas.crm.App.toMainStageView(App.java:47)
+	at indi.nonoas.crm.controller.WelcomeController.lambda$login$0(WelcomeController.java:67)
+	at com.sun.javafx.binding.ExpressionHelper$SingleChange.fireValueChangedEvent(ExpressionHelper.java:181)
+	at com.sun.javafx.binding.ExpressionHelper.fireValueChangedEvent(ExpressionHelper.java:80)
+	at javafx.beans.property.ObjectPropertyBase.fireValueChangedEvent(ObjectPropertyBase.java:106)
+	at javafx.beans.property.ObjectPropertyBase.markInvalid(ObjectPropertyBase.java:113)
+	at javafx.beans.property.ObjectPropertyBase.set(ObjectPropertyBase.java:147)
+	at javafx.concurrent.Task.updateValue(Task.java:1204)
+	at javafx.concurrent.Task$TaskCallable.lambda$call$1(Task.java:1436)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:389)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run$$$capture(InvokeLaterDispatcher.java:96)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: javafx.fxml.LoadException: 
+/D:/Workspace/taiyuangonghuiexcelfilter/target/classes/fxml/main.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2685)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+	at indi.jfxmaker.fxml.AbstractFxmlView.loadSynchronously(AbstractFxmlView.java:158)
+	... 20 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at indi.nonoas.crm.controller.MainController.initTopMenu(MainController.java:119)
+	at indi.nonoas.crm.controller.MainController.initialize(MainController.java:78)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2655)
+	... 23 common frames omitted
+2024-11-13 15:04:26.283 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 21948 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 15:04:26.288 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 15:04:27.482 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.587 seconds (JVM running for 2.283)
+2024-11-13 15:04:29.145 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 15:04:29.159 [JavaFX Application Thread] ERROR indi.jfxmaker.AbstractApp - 无法加载应用程序： 
+java.lang.IllegalStateException: Cannot load mainstage
+	at indi.jfxmaker.fxml.AbstractFxmlView.loadSynchronously(AbstractFxmlView.java:160)
+	at indi.jfxmaker.fxml.AbstractFxmlView.ensureFxmlLoaderInitialized(AbstractFxmlView.java:175)
+	at indi.jfxmaker.fxml.AbstractFxmlView.getView(AbstractFxmlView.java:187)
+	at indi.jfxmaker.AbstractApp.showView(AbstractApp.java:203)
+	at indi.nonoas.crm.App.toMainStageView(App.java:47)
+	at indi.nonoas.crm.controller.WelcomeController.lambda$login$0(WelcomeController.java:67)
+	at com.sun.javafx.binding.ExpressionHelper$SingleChange.fireValueChangedEvent(ExpressionHelper.java:181)
+	at com.sun.javafx.binding.ExpressionHelper.fireValueChangedEvent(ExpressionHelper.java:80)
+	at javafx.beans.property.ObjectPropertyBase.fireValueChangedEvent(ObjectPropertyBase.java:106)
+	at javafx.beans.property.ObjectPropertyBase.markInvalid(ObjectPropertyBase.java:113)
+	at javafx.beans.property.ObjectPropertyBase.set(ObjectPropertyBase.java:147)
+	at javafx.concurrent.Task.updateValue(Task.java:1204)
+	at javafx.concurrent.Task$TaskCallable.lambda$call$1(Task.java:1436)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:389)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: javafx.fxml.LoadException: 
+/D:/Workspace/taiyuangonghuiexcelfilter/target/classes/fxml/main.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2685)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+	at indi.jfxmaker.fxml.AbstractFxmlView.loadSynchronously(AbstractFxmlView.java:158)
+	... 19 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at indi.nonoas.crm.controller.MainController.initTopMenu(MainController.java:119)
+	at indi.nonoas.crm.controller.MainController.initialize(MainController.java:78)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2655)
+	... 22 common frames omitted
+2024-11-13 15:05:07.571 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 8776 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 15:05:07.574 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 15:05:08.829 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.714 seconds (JVM running for 2.484)
+2024-11-13 15:05:10.314 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 15:05:25.217 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 20912 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 15:05:25.220 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 15:05:26.494 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.755 seconds (JVM running for 2.547)
+2024-11-13 15:05:27.985 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 15:05:28.002 [JavaFX Application Thread] ERROR indi.jfxmaker.AbstractApp - 无法加载应用程序： 
+java.lang.IllegalStateException: Cannot load mainstage
+	at indi.jfxmaker.fxml.AbstractFxmlView.loadSynchronously(AbstractFxmlView.java:160)
+	at indi.jfxmaker.fxml.AbstractFxmlView.ensureFxmlLoaderInitialized(AbstractFxmlView.java:175)
+	at indi.jfxmaker.fxml.AbstractFxmlView.getView(AbstractFxmlView.java:187)
+	at indi.jfxmaker.AbstractApp.showView(AbstractApp.java:203)
+	at indi.nonoas.crm.App.toMainStageView(App.java:47)
+	at indi.nonoas.crm.controller.WelcomeController.lambda$login$0(WelcomeController.java:67)
+	at com.sun.javafx.binding.ExpressionHelper$SingleChange.fireValueChangedEvent(ExpressionHelper.java:181)
+	at com.sun.javafx.binding.ExpressionHelper.fireValueChangedEvent(ExpressionHelper.java:80)
+	at javafx.beans.property.ObjectPropertyBase.fireValueChangedEvent(ObjectPropertyBase.java:106)
+	at javafx.beans.property.ObjectPropertyBase.markInvalid(ObjectPropertyBase.java:113)
+	at javafx.beans.property.ObjectPropertyBase.set(ObjectPropertyBase.java:147)
+	at javafx.concurrent.Task.updateValue(Task.java:1204)
+	at javafx.concurrent.Task$TaskCallable.lambda$call$1(Task.java:1436)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:389)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run$$$capture(InvokeLaterDispatcher.java:96)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: javafx.fxml.LoadException: 
+/D:/Workspace/taiyuangonghuiexcelfilter/target/classes/fxml/main.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2685)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+	at indi.jfxmaker.fxml.AbstractFxmlView.loadSynchronously(AbstractFxmlView.java:158)
+	... 20 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at indi.jfxmaker.stage.AppStage.registryDragger(AppStage.java:185)
+	at indi.nonoas.crm.controller.MainController.initialize(MainController.java:74)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2655)
+	... 23 common frames omitted
+2024-11-13 15:05:46.097 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 2240 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 15:05:46.101 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 15:05:47.335 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.697 seconds (JVM running for 2.447)
+2024-11-13 15:05:48.830 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 15:06:11.713 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 21900 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 15:06:11.716 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 15:06:12.825 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.528 seconds (JVM running for 2.211)
+2024-11-13 15:06:14.001 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 15:06:32.590 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 11308 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 15:06:32.594 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 15:06:33.724 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.525 seconds (JVM running for 2.2)
+2024-11-13 15:06:36.859 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17
+2024-11-13 15:12:00.223 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 21300 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 15:12:00.225 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 15:12:01.420 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.639 seconds (JVM running for 2.397)
+2024-11-13 15:51:15.389 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Starting application on Tony-Qis with PID 21604 (started by qipengfei in D:\Workspace\taiyuangonghuiexcelfilter)
+2024-11-13 15:51:15.391 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - The following profiles are active: dev
+2024-11-13 15:51:16.517 [ForkJoinPool.commonPool-worker-51] INFO  org.springframework.boot.SpringApplication - Started application in 1.533 seconds (JVM running for 2.232)
+2024-11-13 15:51:17.970 [JavaFX Application Thread] WARN  javafx - Loading FXML document with JavaFX API of version 22 by JavaFX runtime of version 17

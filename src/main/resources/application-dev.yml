@@ -1,0 +1,147 @@
+spring:
+  application:
+    name: mycrm
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:db/mydb.db
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+logging:
+  config: classpath:logback-spring.xml
+
+view:
+  table:
+    enterprise:
+      - elementCode: enterpriseId
+        elementName: 纳税人识别号
+        sortNo: 1
+        visible: true
+        dataWidth: 200
+      - elementCode: enterpriseName
+        elementName: 企业名称
+        sortNo: 2
+        visible: true
+        dataWidth: 200
+      - elementCode: enterpriseType
+        elementName: 企业类型
+        sortNo: 3
+        visible: true
+        dataWidth: 450
+      - elementCode: taxOrg
+        elementName: 主管税务机关
+        sortNo: 4
+        visible: true
+        dataWidth: 260
+      - elementCode: cancelDateString
+        elementName: 注销日期
+        sortNo: 5
+        visible: true
+        dataWidth: 200
+    funds:
+      - elementCode: enterpriseId
+        elementName: 纳税人识别号
+        sortNo: 1
+        visible: true
+        dataWidth: 200
+      - elementCode: enterpriseName
+        elementName: 企业名称
+        sortNo: 2
+        visible: true
+        dataWidth: 150
+      - elementCode: enterpriseType
+        elementName: 企业类型
+        sortNo: 3
+        visible: true
+        dataWidth: 60
+      - elementCode: office
+        elementName: 征收机关
+        sortNo: 4
+        visible: true
+        dataWidth: 220
+      - elementCode: org
+        elementName: 所属工会
+        sortNo: 5
+        visible: true
+        dataWidth: 150
+      - elementCode: money
+        elementName: 实缴金额
+        sortNo: 6
+        visible: true
+        dataWidth: 60
+      - elementCode: startDateString
+        elementName: 起始日期
+        sortNo: 6
+        visible: true
+        dataWidth: 100
+      - elementCode: endDateString
+        elementName: 截止日期
+        sortNo: 6
+        visible: true
+        dataWidth: 100
+      - elementCode: inputDateString
+        elementName: 入库时期
+        sortNo: 6
+        visible: true
+        dataWidth: 100
+      - elementCode: fundType
+        elementName: 征收类型
+        sortNo: 6
+        visible: true
+        dataWidth: 80
+      - elementCode: enterpriseType
+        elementName: 企业类型
+        sortNo: 6
+        visible: true
+        dataWidth: 100
+    zhuxiaoqingzhang:
+      - elementCode: enterpriseId
+        elementName: 纳税人识别号
+        sortNo: 1
+        visible: true
+        dataWidth: 200
+      - elementCode: enterpriseName
+        elementName: 企业名称
+        sortNo: 2
+        visible: true
+        dataWidth: 100
+      - elementCode: enterpriseType
+        elementName: 企业类型
+        sortNo: 3
+        visible: true
+        dataWidth: 130
+      - elementCode: taxOrg
+        elementName: 主管税务机关
+        sortNo: 4
+        visible: true
+        dataWidth: 260
+      - elementCode: cancelDateString
+        elementName: 注销日期
+        sortNo: 5
+        visible: true
+        dataWidth: 200
+      - elementCode: total2021String
+        elementName: 2021年缴纳金额
+        sortNo: 4
+        visible: true
+        dataWidth: 100
+      - elementCode: total2022String
+        elementName: 2022年缴纳金额
+        sortNo: 4
+        visible: true
+        dataWidth: 100
+      - elementCode: total2023String
+        elementName: 2023年缴纳金额
+        sortNo: 4
+        visible: true
+        dataWidth: 100
+      - elementCode: total
+        elementName: 缴纳金额总计
+        sortNo: 4
+        visible: true
+        dataWidth: 100

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="indi.nonoas.crm.dao.FundsMapper">
+    <resultMap id="FundsDto" type="indi.nonoas.crm.pojo.dto.FundsDto">
+        <result column="enterprise_id" property="enterpriseId"></result>
+        <result column="enterprise_name" property="enterpriseName"></result>
+        <result column="enterprise_type" property="enterpriseType"></result>
+        <result column="office" property="office"></result>
+        <result column="money" property="money"></result>
+        <result column="start_date" property="startDate"></result>
+        <result column="end_date" property="endDate"></result>
+        <result column="input_date" property="inputDate"></result>
+        <result column="fund_type" property="fundType"></result>
+
+    </resultMap>
+    <select id="selectFunds" parameterType="indi.nonoas.crm.pojo.vo.FundsVO"   resultMap="FundsDto">
+        select
+            id,enterprise_id,enterpris_name,office,org,money,start_date,end_date,input_date,fund_type, enterprise_type
+        from
+            fund_tb
+        where 1=1
+        <if test="enterpriseId != null and enterpriseId != ''">
+            and  enterprise_id LIKE  '%${enterpriseId}%'
+        </if>
+        <if test="enterpriseName != null and enterpriseName != ''">
+            and  enterprise_name LIKE  '%${enterpriseName}%'
+        </if>
+        <if test="enterpriseType != null and enterpriseType != ''">
+            and  enterprise_type = #{enterpriseType}
+        </if>
+        <if test="fundType != null and fundType != ''">
+            and  fund_type = #{fundType}
+        </if>
+        <if test="office !=null and office !=''">
+            and  office LIKE  '%${office}%'
+        </if>
+        <if test="org !=null and org !=''">
+            and  org LIKE  '%${org}%'
+        </if>
+        <if test="startDateFrom != null">
+            <![CDATA[ AND start_date >= #{startDateFrom} ]]>
+        </if>
+        <if test="startDateTo != null">
+            <![CDATA[ AND start_date <= #{startDateTo} ]]>
+        </if>
+        <if test="endDateFrom != null">
+            <![CDATA[ AND end_date >= #{endDateFrom} ]]>
+        </if>
+        <if test="endDateTo != null">
+            <![CDATA[ AND end_date <= #{endDateTo} ]]>
+        </if>
+        <if test="inputDateFrom != null">
+            <![CDATA[ AND input_date >= #{inputDateFrom} ]]>
+        </if>
+        <if test="inputDateTo != null">
+            <![CDATA[ AND input_date <= #{inputDateTo} ]]>
+        </if>
+        <if test="moneyFrom != null">
+            <![CDATA[and money >= #{moneyFrom}]]>
+        </if>
+        <if test="moneyto != null">
+            <![CDATA[and money <= #{moneyto}]]>
+        </if>
+    </select>
+
+    <select id="selectFundsCount" parameterType="indi.nonoas.crm.pojo.vo.FundsVO"  resultType="int">
+        select
+            count(*)
+        from
+        fund_tb
+        where
+            1=1
+        <if test="enterpriseId != null and enterpriseId != ''">
+            and  enterprise_id LIKE  '%${enterpriseId}%'
+        </if>
+        <if test="enterpriseName != null and enterpriseName != ''">
+            and  enterprise_name LIKE  '%${enterpriseName}%'
+        </if>
+        <if test="enterpriseType != null and enterpriseType != ''">
+            and  enterprise_type = #{enterpriseType}
+        </if>
+        <if test="fundType != null and fundType != ''">
+            and  fund_type = #{fundType}
+        </if>
+        <if test="startDateFrom != null">
+            <![CDATA[ AND start_date >= #{startDateFrom} ]]>
+        </if>
+        <if test="startDateTo != null">
+            <![CDATA[ AND start_date <= #{startDateTo} ]]>
+        </if>
+        <if test="endDateFrom != null">
+            <![CDATA[ AND end_date >= #{endDateFrom} ]]>
+        </if>
+        <if test="endDateTo != null">
+            <![CDATA[ AND end_date <= #{endDateTo} ]]>
+        </if>
+        <if test="inputDateFrom != null">
+            <![CDATA[ AND input_date >= #{inputDateFrom} ]]>
+        </if>
+        <if test="inputDateTo != null">
+            <![CDATA[ AND input_date <= #{inputDateTo} ]]>
+        </if>
+        <if test="moneyFrom != null">
+            <![CDATA[and money >= #{moneyFrom}]]>
+        </if>
+        <if test="moneyto != null">
+            <![CDATA[and money <= #{moneyto}]]>
+        </if>
+    </select>
+
+    <select id="selectFundsByPage" parameterType="indi.nonoas.crm.pojo.vo.FundsVO"  resultMap="FundsDto">
+        select
+            *
+        from
+            fund_tb
+        where
+        1=1
+        <if test="enterpriseId != null and enterpriseId != ''">
+            and  enterprise_id LIKE  '%${enterpriseId}%'
+        </if>
+        <if test="enterpriseName != null and enterpriseName != ''">
+            and  enterprise_name LIKE  '%${enterpriseName}%'
+        </if>
+        <if test="enterpriseType != null and enterpriseType != ''">
+            and  enterprise_type = #{enterpriseType}
+        </if>
+        <if test="fundType != null and fundType != ''">
+            and  fund_type = #{fundType}
+        </if>
+        <if test="startDateFrom != null">
+            <![CDATA[ AND start_date >= #{startDateFrom} ]]>
+        </if>
+        <if test="startDateTo != null">
+            <![CDATA[ AND start_date <= #{startDateTo} ]]>
+        </if>
+        <if test="endDateFrom != null">
+            <![CDATA[ AND end_date >= #{endDateFrom} ]]>
+        </if>
+        <if test="endDateTo != null">
+            <![CDATA[ AND end_date <= #{endDateTo} ]]>
+        </if>
+        <if test="inputDateFrom != null">
+            <![CDATA[ AND input_date >= #{inputDateFrom} ]]>
+        </if>
+        <if test="inputDateTo != null">
+            <![CDATA[ AND input_date <= #{inputDateTo} ]]>
+        </if>
+        <if test="moneyFrom != null">
+            <![CDATA[and money >= #{moneyFrom}]]>
+        </if>
+        <if test="moneyto != null">
+            <![CDATA[and money <= #{moneyto}]]>
+        </if>
+        LIMIT #{offset}, #{size}
+    </select>
+
+
+    <insert id="insertFunds" >
+        insert
+            into fund_tb
+                (enterprise_id,enterprise_name,office,org,money,start_date,end_date,input_date,fund_type, enterprise_type)
+            values
+                (#{enterpriseId},#{enterpriseName},#{office},#{org},#{money},#{startDate},#{endDate},#{inputDate},#{fundType},#{enterpriseType})
+    </insert>
+    <insert id="insertFundsBatch" parameterType="list">
+        insert
+            into fund_tb
+                (enterprise_id,enterprise_name,office,org,money,start_date,end_date,input_date,fund_type, enterprise_type)
+            values
+        <foreach collection="list" item="item" index="index" separator=",">
+            (#{item.enterpriseId},#{item.enterpriseName},#{item.office},#{item.org},#{item.money},#{item.startDate},#{item.endDate},#{item.inputDate},#{item.fundType},#{item.enterpriseType})
+        </foreach>
+    </insert>
+
+    <delete id="deleteAllFunds">
+        delete from fund_tb
+    </delete>
+</mapper>
